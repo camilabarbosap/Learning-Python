@@ -51,3 +51,24 @@ print('hi {}. you are {} years old'.format(name, age))
 #changing information
 
 print('hi {new_name}. you are {new_age} years old'.format(new_name = 'Camila', new_age ='26'))
+
+
+#String indexes
+#acessar diferentes locais em uma string
+
+selfish = 'me me me'
+         # 01234567
+print(selfish[7]) 
+
+# [start:stop]
+numbers = '0123456789'
+print(numbers[3:7]) #onde começa e onde termina
+
+# [start:stop:stepover]
+algumacoisa = '0123456789' 
+print(algumacoisa[1:7:2]) # seleciona números entre 1 e 7 a cada 2 números
+print(algumacoisa[-5]) #quinto de  traz pra frente
+print(algumacoisa[::-2]) #salta 2 numeros de traz pra frente
+
+print(len('helloooooo')) #comprimento da string
+
