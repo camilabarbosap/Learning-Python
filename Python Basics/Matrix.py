@@ -1,0 +1,10 @@
+#Matrix (lista multidimensões)
+#muito utilizado em machine learning e processamento de imagens
+
+matrix = [
+  [1, 2, 3],
+  [2, 4, 6],
+  [7, 8, 9]
+]
+
+print(matrix [0][1])
